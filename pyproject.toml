@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "escriturador-holerites"
+version = "0.1.0"
+description = "A tool to fetch paychecks from the web and convert them into ledger-cli transactions."
+authors = ["Ricardo Inacio Alvares e Silva <ricardoinacio@me.com>"]
+readme = "README.rst"
+license = "AGPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+beautifulsoup4 = "^4.9.1"
+Babel = "^2.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.3"
+black = "^19.10b0"
+rope = "^0.17.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
